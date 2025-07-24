@@ -21,13 +21,13 @@ dotenv.config();
 
 // Connecting to database
 database.connect();
- 
+
 // Middlewares
 app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin: "*",
+		origin: "https://study-notion-git-main-avloks-projects-ad073ff4.vercel.app",
 		credentials: true,
 	})
 );
