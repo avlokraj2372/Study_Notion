@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin: "https://study-notion-git-main-avloks-projects-ad073ff4.vercel.app",
+		origin: "https://study-notion-six-weld.vercel.app",
 		credentials: true,
 	})
 );
